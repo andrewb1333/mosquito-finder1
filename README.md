@@ -1,2 +1,3 @@
 # mosquito-finder1
 first repository for mosquito finder
+The goal of this repository is to create a machine learning program that can identify areas of mosquito breeding based on satellite imagery and historical mosquito abundance. The input data will be GPS coordinates of EVS trapping sites, which will be used to collect imagery of the site, and historical mosquito species abundance, which will be used to evaluate the risk of the sites. Other data inputs may need to be added to accurately train the model to recognize sites that impact people, like rainfall and time of year. Analysis by the program can be used to identify locations of potential mosquito breeding sites in underserved communities that lie outside of current EVS trapping coverage.
