@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 '''imports'''
 
 import numpy as np
@@ -20,8 +14,6 @@ from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import multilabel_confusion_matrix, ConfusionMatrixDisplay
 
-
-# In[13]:
 
 
 '''data management'''
@@ -67,15 +59,6 @@ culiseta = ['incidens', 'inornata', 'particeps']
 rawdata.fillna(0)
 
 
-# In[76]:
-
-
-'''SVM implementation - create classes for trap instances'''
-
-training_set, test_set = train_test_split(pdata, test_size = 0.2, random_state = 1)
-
-
-# In[ ]:
 
 
 
